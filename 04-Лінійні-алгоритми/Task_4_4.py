@@ -1,0 +1,10 @@
+n = int(input())
+
+d1 = n // 100
+d2 = (n // 10) % 10
+d3 = n  % 10
+
+
+result = d3 * 100 + d2 * 10 + d1
+
+print(result)
